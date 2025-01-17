@@ -1,10 +1,14 @@
-*{
-  margin : 0;
-  padding : 8px;
-  box-sizing: border-box;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 @font-face {
   font-family: "Canela-Regular-Trial";
-  src: url("./assets/Canela-Regular-Trial.otf") format("opentype");
+  src: url("./assets/fonts/Canela-Regular-Trial.otf") format("woff2"),
+       url("./assets/fonts/Canela-Regular-Trial.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
+
+

@@ -1,29 +1,30 @@
 import './App.css'
-import Homepage from './components/Homepage/Homepage'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import About from './components/About/About'
-import RootLayout from './components/RootLayout/RootLayout'
+import Homepage from './components/UI/Homepage'
+import Navigation from './components/UI/Navigation'
 
 function App() {
 
-  const router = createBrowserRouter([
-    {
-      path : '/',
-      element : <RootLayout/>,
-      children : [
-        {
-          index : true,
-          element : <Homepage/>
-        },
-        {
-          path : 'about',
-          element : <About/>
-        }
-      ]
-    }
-  ])
+  // const router = createBrowserRouter([
+  //   {
+  //     path : '/',
+  //     element : <RootLayout/>,
+  //     children : [
+  //       {
+  //         index : true,
+  //         element : <Homepage/>
+  //       },
+  //       {
+  //         path : 'about',
+  //         element : <About/>
+  //       }
+  //     ]
+  //   }
+  // ])
   return (
-      <RouterProvider router={router}/>
+    <div className='p-8'>
+      <Navigation/>
+      <Homepage/>
+    </div>
   )
 }
 
