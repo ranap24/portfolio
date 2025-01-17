@@ -1,0 +1,28 @@
+.About {
+  position: relative;
+  display: flex;
+  width: 100%; /* You can set a specific width if needed */
+  height: 400px; /* Set the height to the card height */
+  justify-content: center;
+  align-items: center;
+  overflow: visible; /* Allow cards to overflow for the fan effect */
+  left : 50%;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .About::-webkit-scrollbar {
+    display: none;  
+  }
+  
+  /* Container for all the stacked cards */
+.About {
+  position: relative;
+  display: flex;
+  width: 100%; /* You can set a specific width if needed */
+  height: 400px; /* Set the height to the card height */
+  justify-content: center;
+  align-items: center;
+  overflow: visible; /* Allow cards to overflow for the fan effect */
+}
