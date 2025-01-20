@@ -1,29 +1,32 @@
 import './App.css'
-import Homepage from './components/Homepage/Homepage'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import About from './components/About/About'
-import RootLayout from './components/RootLayout/RootLayout'
+import Homepage from './components/UI/Homepage'
+import Navigation from './components/UI/Navigation'
+import { BackgroundBeams } from './components/UI/background-beams'
 
 function App() {
 
-  const router = createBrowserRouter([
-    {
-      path : '/',
-      element : <RootLayout/>,
-      children : [
-        {
-          index : true,
-          element : <Homepage/>
-        },
-        {
-          path : 'about',
-          element : <About/>
-        }
-      ]
-    }
-  ])
+  // const router = createBrowserRouter([
+  //   {
+  //     path : '/',
+  //     element : <RootLayout/>,
+  //     children : [
+  //       {
+  //         index : true,
+  //         element : <Homepage/>
+  //       },
+  //       {
+  //         path : 'about',
+  //         element : <About/>
+  //       }
+  //     ]
+  //   }
+  // ])
   return (
-      <RouterProvider router={router}/>
+    <div className="h-auto w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
+       <Navigation/>
+       <Homepage/>
+      <BackgroundBeams />
+    </div>
   )
 }
 
