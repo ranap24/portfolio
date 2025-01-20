@@ -1,6 +1,7 @@
 import './App.css'
 import Homepage from './components/UI/Homepage'
 import Navigation from './components/UI/Navigation'
+import { BackgroundBeams } from './components/UI/background-beams'
 
 function App() {
 
@@ -21,9 +22,10 @@ function App() {
   //   }
   // ])
   return (
-    <div className='p-8'>
-      <Navigation/>
-      <Homepage/>
+    <div className="h-auto w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
+       <Navigation/>
+       <Homepage/>
+      <BackgroundBeams />
     </div>
   )
 }
