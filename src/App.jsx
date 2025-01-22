@@ -5,6 +5,7 @@ import Services from './components/Services';
 // import { TextRevealCard } from './components/UI/text-reveal-card';
 import AnimatedTestimonialsDemo from './components/TeamMembers';
 import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <Services/>
       <AnimatedTestimonialsDemo/>
       <ContactForm/>
+      <Footer/>
     </>
     
   )
