@@ -29,12 +29,12 @@ const Navbar = () => {
         },
       }}
       transition={{ duration: 0.2 }}
-      className="fixed top-0 z-10 flex w-full justify-center pt-3"
+      className="fixed top-0 z-10 flex w-full mx-auto sm:justify-center pt-3"
     >
-      <nav className="flex justify-between gap-3 rounded-lg bg-white p-3 *:rounded-md *:border *:border-gray-200 *:px-5 *:py-1 *:transition-colors *:duration-300 hover:*:bg-gray-200 focus-visible:*:bg-gray-200">
+      <nav className="flex text-[10px] sm:text-[16px] justify-between gap-2 sm:gap-3 rounded-lg bg-white p-3 *:rounded-md *:border *:border-gray-200 *:px-2.5 sm:*:px-5 *:py-1 *:transition-colors *:duration-300 hover:*:bg-gray-200 focus-visible:*:bg-gray-200">
         <a href="#" className="bg-gray-200">
           <svg
-            className="h-6 w-6"
+            className="h-3 w-3 sm:h-6 sm:w-6"
             fill="currentColor"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"

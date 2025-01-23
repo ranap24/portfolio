@@ -30,7 +30,7 @@ export const TextGenerateEffect = ({
           return (
             (<motion.span
               key={word + idx}
-              className="font-raleway bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-sm md:text-lg lg:text-xl py-2 md:pb-10 relative z-20 tracking-tight"
+              className="font-raleway bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-[16px] md:text-lg lg:text-xl py-2 md:pb-10 relative z-20 tracking-[8px] sm:tracking-[16px]"
               style={{
                 filter: filter ? "blur(10px)" : "none",
               }}>
@@ -44,7 +44,7 @@ export const TextGenerateEffect = ({
 
   return (
     (<div className={cn("", className)}>
-      <div className="dark:text-white text-black text-2xl leading-snug tracking-wide">
+      <div className="text-white text-2xl leading-snug tracking-wide">
       {renderWords()}
       </div>
     </div>)
