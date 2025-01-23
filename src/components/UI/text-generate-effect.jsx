@@ -30,7 +30,7 @@ export const TextGenerateEffect = ({
           return (
             (<motion.span
               key={word + idx}
-              className="font-raleway bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-[16px] md:text-lg lg:text-xl py-2 md:pb-10 relative z-20 tracking-[8px] sm:tracking-[16px]"
+              className="font-raleway bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-[16px] md:text-lg lg:text-xl py-2 md:pb-10 relative z-9 tracking-[8px] sm:tracking-[16px]"
               style={{
                 filter: filter ? "blur(10px)" : "none",
               }}>
