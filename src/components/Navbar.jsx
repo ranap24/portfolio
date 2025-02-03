@@ -30,7 +30,7 @@ const Navbar = () => {
         },
       }}
       transition={{ duration: 0.2 }}
-      className="fixed top-0 z-10 flex w-full mx-auto sm:justify-center pt-3"
+      className="fixed top-0 left-0 right-0 z-10 flex justify-center pt-3"
     >
       <nav className="flex text-[10px] sm:text-[16px] justify-between gap-2 sm:gap-3 rounded-lg bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-3 *:rounded-md 0 *:px-2.5 sm:*:px-5 *:py-1 *:transition-colors *:duration-300 hover:*:bg-gray-200 focus-visible:*:bg-gray-200">
       <a href="#" className="border border-hidden">
