@@ -44,10 +44,10 @@ const Navbar = () => {
           
           <span className="sr-only">Home</span>
         </a>
-        <a href="#" className="text-white hover:text-gray-900">Products</a>
-        <a href="#" className="text-white hover:text-gray-900">Services</a>
-        <a href="#" className="text-white hover:text-gray-900">About</a>
-        <a href="#" className="text-white hover:text-gray-900">Contact</a>
+        <a href="#" className="text-black dark:text-white hover:text-gray-900">Products</a>
+        <a href="#" className="text-black dark:text-white hover:text-gray-900">Services</a>
+        <a href="#" className="text-black dark:text-white hover:text-gray-900">About</a>
+        <a href="#" className="text-black dark:text-white hover:text-gray-900">Contact</a>
       </nav>
     </motion.div>
   );
