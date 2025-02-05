@@ -8,7 +8,7 @@ export default function Services() {
       title: "Web Development",
       value: "webDevelopment",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl bg-[url(src/assets/webDevelopment.jpg)] bg-cover bg-center">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl bg-[url(/webDevelopment.jpg)] bg-cover bg-center">
           <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 bg-[#000000] opacity-70">
             <h1 className="font-canela tracking-wide text-xl md:text-6xl font-semibold text-white">
               Web Development
@@ -18,7 +18,7 @@ export default function Services() {
               Experience.
             </p>
             <motion.a
-              className="bg-white text-black font-normal text-xl p-4 rounded-xl focus:border-none focus:outline-none absolute right-8 bottom-8 "
+              className="bg-white text-black font-normal text-xl p-4 rounded-xl focus:border-none focus:outline-none absolute sm:right-8 sm:bottom-8 right-4 bottom-4 "
               whileTap={{ scale: 0.9 }}
               href="#contact"
             >
@@ -32,7 +32,7 @@ export default function Services() {
       title: "App Development",
       value: "appDevelopement",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl bg-[url(src/assets/appDevelopment.jpg)] bg-cover bg-center">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl bg-[url(/appDevelopment.jpg)] bg-cover bg-center">
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 bg-[#000000] opacity-70">
           <h1 className="font-canela tracking-wide text-xl md:text-6xl font-semibold text-white">
             App Development
@@ -41,7 +41,7 @@ export default function Services() {
           We help take your business to every smartphone users by developing robust mobile applications.
           </p>
           <motion.a
-            className="bg-white text-black font-normal text-xl p-4 rounded-xl focus:border-none focus:outline-none absolute right-8 bottom-8 "
+            className="bg-white text-black font-normal text-xl p-4 rounded-xl focus:border-none focus:outline-none absolute sm:right-8 sm:bottom-8 right-4 bottom-4 "
             whileTap={{ scale: 0.9 }}
             href="#contact"
           >
@@ -55,7 +55,7 @@ export default function Services() {
       title: "Data Analytics",
       value: "dataAnalytics",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl bg-[url(src/assets/dataAnalytics.jpg)] bg-cover bg-center">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl bg-[url(/dataAnalytics.jpg)] bg-cover bg-center">
           <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 bg-[#000000] opacity-70">
             <h1 className="font-canela tracking-wide text-xl md:text-6xl font-semibold text-white">
               Data Analytics
@@ -64,7 +64,7 @@ export default function Services() {
             Analyze your best performing products and services to become unbeatable in this competitive market.
             </p>
             <motion.a
-              className="bg-white text-black font-normal text-xl p-4 rounded-xl focus:border-none focus:outline-none absolute right-8 bottom-8 "
+              className="bg-white text-black font-normal text-xl p-4 rounded-xl focus:border-none focus:outline-none absolute sm:right-8 sm:bottom-8 right-4 bottom-4 "
               whileTap={{ scale: 0.9 }}
               href="#contact"
             >
@@ -78,7 +78,7 @@ export default function Services() {
       title: "Gen AI",
       value: "genAI",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl bg-[url(src/assets/genAI.jpg)] bg-cover bg-center">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl bg-[url(/genAI.jpg)] bg-cover bg-center">
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 bg-[#000000] opacity-70 ">
           <h1 className="font-canela tracking-wide text-4xl md:text-6xl font-semibold text-white">
             Gen AI
@@ -87,7 +87,7 @@ export default function Services() {
           We develop AI to speak on behalf of your business to the users, exactly like you want to do.
           </p>
           <motion.a
-            className="bg-white text-black font-normal text-xl p-4 rounded-xl focus:border-none focus:outline-none absolute right-8 bottom-8 "
+            className="bg-white text-black font-normal text-xl sm:text-xl p-4 rounded-xl focus:border-none focus:outline-none absolute sm:right-8 sm:bottom-8 right-4 bottom-4 "
             whileTap={{ scale: 0.9 }}
             href="#contact"
           >

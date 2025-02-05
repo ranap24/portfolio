@@ -34,7 +34,7 @@ export const AnimatedTestimonials = ({
   };
 
   return (
-    <div className="h-auto max-w-sm md:max-w-4xl mx-auto antialiased font-sans px-5 md:px-8 lg:px-12 py-20" id = "about">
+    <div className="h-auto max-w-sm md:max-w-4xl mx-auto antialiased font-sans px-5 md:px-8 lg:px-12 py-20 m-4" id = "about">
       <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20">
         <div className="relative h-64 md:h-80 w-full">
           <AnimatePresence>
