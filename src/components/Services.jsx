@@ -2,7 +2,6 @@
 
 import { Tabs } from "./UI/Tabs";
 import { motion } from "framer-motion";
-import webDevelopement from '../assets/webDevelopment.jpg'
 
 export default function Services() {
   const tabs = [
@@ -10,7 +9,7 @@ export default function Services() {
       title: "Web Development",
       value: "webDevelopment",
       content: (
-        <div className={`w-full overflow-hidden relative h-full rounded-2xl bg-[url(${webDevelopement})] bg-cover bg-center`}>
+        <div className={`w-full overflow-hidden relative h-full rounded-2xl bg-[url(/webDevelopment.jpg)] bg-cover bg-center`}>
           <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 bg-[#000000] opacity-70">
             <h1 className="font-canela tracking-wide text-xl md:text-6xl font-semibold text-white">
               Web Development
