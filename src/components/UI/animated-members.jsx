@@ -27,7 +27,6 @@ export const AnimatedTestimonials = ({
       const interval = setInterval(handleNext, 5000);
       return () => clearInterval(interval);
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [autoplay]);
 
   const randomRotateY = () => {
@@ -35,9 +34,8 @@ export const AnimatedTestimonials = ({
   };
 
   return (
-    <div className="h-auto max-w-sm md:max-w-4xl mx-auto antialiased font-sans px-5 md:px-8 lg:px-12 py-20">
+    <div className="h-auto max-w-sm md:max-w-4xl mx-auto antialiased font-sans px-5 md:px-8 lg:px-12 py-20" id = "about">
       <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20">
-        {/* Image Section */}
         <div className="relative h-64 md:h-80 w-full">
           <AnimatePresence>
             {testimonials.map((testimonial, index) => (
@@ -108,9 +106,9 @@ export const AnimatedTestimonials = ({
             <h3 className="text-xl md:text-2xl font-bold dark:text-white text-black">
               {testimonials[active].name}
             </h3>
-            <p className="text-sm text-gray-500 dark:text-neutral-500">
+            <a className="text-sm text-gray-500 dark:text-neutral-500" href={`mailto:${testimonials[active].designation}`}>
               {testimonials[active].designation}
-            </p>
+            </a>
             <motion.p className="text-base md:text-lg text-gray-500 mt-8 dark:text-neutral-300">
               {testimonials[active].quote.split(" ").map((word, index) => (
                 <motion.span
@@ -138,7 +136,6 @@ export const AnimatedTestimonials = ({
             </motion.p>
           </motion.div>
 
-          {/* Navigation Buttons */}
           <div className="flex gap-4 pt-8 md:pt-0 justify-center md:justify-start">
             <button
               onClick={handlePrev}

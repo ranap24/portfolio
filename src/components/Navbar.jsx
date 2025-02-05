@@ -40,14 +40,15 @@ const Navbar = () => {
             initial={{ scale: 1, rotate: 0 }}
             animate={{ rotate: 360, transition: { duration: 2, repeat: Infinity, repeatType: "loop", ease: "linear" } }}
             whileHover={{ scale: 1.1, transition: { duration: 0.2 } }}
+            whileTap={{scale : 0.9}}
           />
           
           <span className="sr-only">Home</span>
         </a>
-        <a href="#" className="text-black dark:text-white hover:text-gray-900">Products</a>
-        <a href="#" className="text-black dark:text-white hover:text-gray-900">Services</a>
-        <a href="#" className="text-black dark:text-white hover:text-gray-900">About</a>
-        <a href="#" className="text-black dark:text-white hover:text-gray-900">Contact</a>
+        <a href="#home" className="text-black dark:text-white hover:text-gray-900">Home</a>
+        <a href="#services" className="text-black dark:text-white hover:text-gray-900">Services</a>
+        <a href="#about" className="text-black dark:text-white hover:text-gray-900">About</a>
+        <a href="#contact" className="text-black dark:text-white hover:text-gray-900">Contact</a>
       </nav>
     </motion.div>
   );

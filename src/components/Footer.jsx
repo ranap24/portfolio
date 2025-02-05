@@ -7,34 +7,25 @@ export default function Footer() {
             <h4 className="text-3xl fonat-semibold text-blueGray-700">
               Let`s keep in touch!
             </h4>
+            <p className = "text-sm text-gray-500 dark:text-neutral-500"><a  href="mailto:contact@carinami.com">contact@carinami.com</a>{" "}|{" "}<a href="tel:+917075173805">+91 7075173805</a></p>
             <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
               Find us on any of these platforms, we respond 1-2 business days.
             </h5>
             <div className="mt-6 lg:mb-0 mb-6">
-              <button
-                className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                type="button"
-              >
-                <i className="fab fa-twitter"></i>
-              </button>
-              <button
+              <a
                 className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                type="button"
+                href="https://www.linkedin.com/company/carinamistudios/"
+                target="blank"
               >
-                <i className="fab fa-facebook-square"></i>
-              </button>
-              <button
-                className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                type="button"
-              >
-                <i className="fab fa-dribbble"></i>
-              </button>
-              <button
+                <i className="fab fa-linkedin"></i>
+              </a>
+              <a
                 className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                type="button"
+                href="https://github.com/carinamistudios"
+                target="blank"
               >
                 <i className="fab fa-github"></i>
-              </button>
+              </a>
             </div>
           </div>
           <div className="w-full lg:w-6/12 px-4">
@@ -47,7 +38,7 @@ export default function Footer() {
                   <li>
                     <a
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/presentation?ref=njs-profile"
+                      href="#services"
                     >
                       About Us
                     </a>
@@ -55,25 +46,17 @@ export default function Footer() {
                   <li>
                     <a
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://blog.creative-tim.com?ref=njs-profile"
+                      href="#about"
                     >
-                      Blog
+                      Our Team
                     </a>
                   </li>
                   <li>
                     <a
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.github.com/creativetimofficial?ref=njs-profile"
+                      href="#contact"
                     >
-                      Github
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile"
-                    >
-                      Free Products
+                      Contact Us
                     </a>
                   </li>
                 </ul>
@@ -83,14 +66,6 @@ export default function Footer() {
                   Other Resources
                 </span>
                 <ul className="list-unstyled">
-                  <li>
-                    <a
-                      className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile"
-                    >
-                      MIT License
-                    </a>
-                  </li>
                   <li>
                     <a
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
@@ -107,14 +82,6 @@ export default function Footer() {
                       Privacy Policy
                     </a>
                   </li>
-                  <li>
-                    <a
-                      className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/contact-us?ref=njs-profile"
-                    >
-                      Contact Us
-                    </a>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -124,20 +91,15 @@ export default function Footer() {
         <div className="flex flex-wrap items-center md:justify-between justify-center">
           <div className="w-full md:w-4/12 px-4 mx-auto text-center">
             <div className="text-sm text-blueGray-500 font-semibold py-1">
-              Copyright © <span id="get-current-year">2021</span>
+              Copyright © <span id="get-current-year">2025</span>
               <a
-                href="https://www.creative-tim.com/product/notus-js"
+                href="#"
                 className="text-blueGray-500 hover:text-gray-800"
-                target="_blank"
               >
                 {" "}
-                Notus JS by
-              </a>
-              <a
-                href="https://www.creative-tim.com?ref=njs-profile"
-                className="text-blueGray-500 hover:text-blueGray-800"
-              >
-                Creative Tim
+                Carinami
+                {" "}
+                Studios
               </a>
               .
             </div>
