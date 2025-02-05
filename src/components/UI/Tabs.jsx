@@ -29,7 +29,7 @@ export const Tabs = ({
       className={cn(
         "flex flex-row items-center justify-start [perspective:1000px] relative overflow-auto sm:overflow-visible no-visible-scrollbar max-w-full w-full",
         containerClassName
-      )}>
+      )} id = "services">
       {propTabs.map((tab, idx) => (
         <button
           key={tab.title}
@@ -90,7 +90,7 @@ export const FadeInDiv = ({
           animate={{
             y: isActive(tab) ? [0, 40, 0] : 0,
           }}
-          className={cn("w-full h-3/4 absolute top-0 left-0", className)}>
+          className={cn("w-full h-full sm:h-3/4 absolute top-0 left-0", className)}>
           {tab.content}
         </motion.div>
       ))}
