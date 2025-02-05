@@ -33,7 +33,7 @@ export default function Services() {
       title: "App Development",
       value: "appDevelopement",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl bg-[url(/assets/appDevelopment.jpg)] bg-cover bg-center">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl bg-[url(/appDevelopment.jpg)] bg-cover bg-center">
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 bg-[#000000] opacity-70">
           <h1 className="font-canela tracking-wide text-xl md:text-6xl font-semibold text-white">
             App Development
@@ -56,7 +56,7 @@ export default function Services() {
       title: "Data Analytics",
       value: "dataAnalytics",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl bg-[url(/assets/dataAnalytics.jpg)] bg-cover bg-center">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl bg-[url(/dataAnalytics.jpg)] bg-cover bg-center">
           <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 bg-[#000000] opacity-70">
             <h1 className="font-canela tracking-wide text-xl md:text-6xl font-semibold text-white">
               Data Analytics
@@ -79,7 +79,7 @@ export default function Services() {
       title: "Gen AI",
       value: "genAI",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl bg-[url(../assets/genAI.jpg)] bg-cover bg-center">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl bg-[url(/genAI.jpg)] bg-cover bg-center">
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 bg-[#000000] opacity-70 ">
           <h1 className="font-canela tracking-wide text-4xl md:text-6xl font-semibold text-white">
             Gen AI
