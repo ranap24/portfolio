@@ -33,7 +33,7 @@ const Navbar = () => {
       className="fixed top-0 left-0 right-0 z-10 flex justify-center pt-3"
     >
       <nav className="flex text-[10px] sm:text-[16px] justify-between gap-2 sm:gap-3 rounded-lg bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-3 *:rounded-md 0 *:px-2.5 sm:*:px-5 *:py-1 *:transition-colors *:duration-300 hover:*:bg-gray-200 focus-visible:*:bg-gray-200">
-      <a href="#" className="border border-hidden">
+      <a href="#" className="border border-hidden scroll-smooth">
           <motion.img
             className="h-3 w-3 sm:h-6 sm:w-6"
             src={LogoSample}
@@ -45,10 +45,10 @@ const Navbar = () => {
           
           <span className="sr-only">Home</span>
         </a>
-        <a href="#home" className="text-black dark:text-white hover:text-gray-900">Home</a>
-        <a href="#services" className="text-black dark:text-white hover:text-gray-900">Services</a>
-        <a href="#about" className="text-black dark:text-white hover:text-gray-900">About</a>
-        <a href="#contact" className="text-black dark:text-white hover:text-gray-900">Contact</a>
+        <a href="#home" className="text-black dark:text-white hover:text-gray-900 scroll-smooth">Home</a>
+        <a href="#services" className="text-black dark:text-white hover:text-gray-900 scroll-smooth">Services</a>
+        <a href="#about" className="text-black dark:text-white hover:text-gray-900 scroll-smooth">About</a>
+        <a href="#contact" className="text-black dark:text-white hover:text-gray-900 scroll-smooth">Contact</a>
       </nav>
     </motion.div>
   );
